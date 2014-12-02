@@ -5,37 +5,39 @@ object frmbtfmain: Tfrmbtfmain
   Width = 339
   BorderIcons = [biSystemMenu, biMinimize]
   BorderStyle = bsSingle
-  Caption = 'BringToFront v1.0'
+  Caption = 'BringToFront'
   ClientHeight = 112
   ClientWidth = 339
+  OnCreate = FormCreate
   Position = poDesktopCenter
   LCLVersion = '1.0.12.0'
-  object Button1: TButton
+  object btnSetToRight: TButton
     Left = 20
     Height = 25
     Top = 64
-    Width = 75
-    Caption = 'Button1'
+    Width = 135
+    Caption = 'SET TOP MOST'
+    OnClick = btnSetToRightClick
     TabOrder = 0
   end
-  object Button2: TButton
-    Left = 245
+  object btnSetNoTopMost: TButton
+    Left = 184
     Height = 25
     Top = 64
-    Width = 75
-    Caption = 'Button2'
+    Width = 135
+    Caption = 'SET NO TOP MOST'
+    OnClick = btnSetNoTopMostClick
     TabOrder = 1
   end
-  object ComboBox1: TComboBox
+  object cmbWindows: TComboBox
     Left = 20
     Height = 21
     Top = 20
     Width = 268
     ItemHeight = 13
     TabOrder = 2
-    Text = 'ComboBox1'
   end
-  object SpeedButton1: TSpeedButton
+  object btnRefreshWindows: TSpeedButton
     Left = 297
     Height = 22
     Top = 20
@@ -69,5 +71,6 @@ object frmbtfmain: Tfrmbtfmain
       0000000000254D29010201000000000000000000000000000000
     }
     NumGlyphs = 0
+    OnClick = btnRefreshWindowsClick
   end
 end

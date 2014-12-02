@@ -47,6 +47,7 @@
         <Filename Value="ufrmbtfmain.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="frmbtfmain"/>
+        <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="ufrmBTFMain"/>
       </Unit1>

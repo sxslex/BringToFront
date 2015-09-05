@@ -1,7 +1,6 @@
 (*
 Simple program designed to put a window in operaciona windows system always in
 front.
-https://github.com/sxslex/BringToFront
 by sx.slex@gmail.com
 *)
 unit ufrmBTFMain;
